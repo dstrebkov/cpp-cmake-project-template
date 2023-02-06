@@ -4,8 +4,8 @@ project(factorial_doctest_fakeit LANGUAGES CXX)
 
 add_library(factorial_doctest_fakeit STATIC src/factorial.cpp include/factorial.h)
 
-target_sources(factorial_doctest_fakeit PUBLIC src/factorial.cpp)
-target_include_directories(factorial_doctest_fakeit PUBLIC "${CMAKE_SOURCE_DIR}")
+target_sources(factorial_doctest_fakeit PRIVATE src/factorial.cpp)
+target_include_directories(factorial_doctest_fakeit PRIVATE "${CMAKE_SOURCE_DIR}")
 
 set(PUBLIC_HEADER ${CMAKE_CURRENT_SOURCE_DIR}/include/factorial.h)
 set(OUTPUT_INCLUDES_DIR "${CMAKE_SOURCE_DIR}/include/${PROJECT_NAME}")

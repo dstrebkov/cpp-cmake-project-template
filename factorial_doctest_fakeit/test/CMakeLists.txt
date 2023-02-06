@@ -19,9 +19,9 @@ FetchContent_MakeAvailable(FakeIt)
 add_executable(factorial_doctest_fakeit_tests factorial_test.cpp)
 
 set(DOCTEST_FAKEIT_INCLUDES "${doctest_SOURCE_DIR}/doctest" "${fakeit_SOURCE_DIR}/single_header/doctest")
-target_include_directories(factorial_doctest_fakeit_tests PUBLIC "${DOCTEST_FAKEIT_INCLUDES}" "${CMAKE_SOURCE_DIR}")
+target_include_directories(factorial_doctest_fakeit_tests PRIVATE "${DOCTEST_FAKEIT_INCLUDES}" "${CMAKE_SOURCE_DIR}")
 
-target_link_libraries(factorial_doctest_fakeit_tests PUBLIC doctest::doctest factorial_doctest_fakeit)
+target_link_libraries(factorial_doctest_fakeit_tests PRIVATE doctest::doctest factorial_doctest_fakeit)
 
 enable_testing()
 include(${doctest_SOURCE_DIR}/scripts/cmake/doctest.cmake)
