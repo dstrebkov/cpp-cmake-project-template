@@ -2,6 +2,8 @@ cpp-cmake-project-template
 ================
 
 ![example workflow](https://github.com/dstrebkov/cpp-cmake-project-template/actions/workflows/cmake.yml/badge.svg)
+![language](https://img.shields.io/github/languages/top/dstrebkov/cpp-cmake-project-template)
+![repo size](https://img.shields.io/github/repo-size/dstrebkov/cpp-cmake-project-template)
 
 CMake based C++ project template that could be used as a starting point for a new C++ project.
 
