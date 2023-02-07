@@ -1,7 +1,7 @@
 cpp-cmake-project-template
 ================
 
-![example workflow](https://github.com/dstrebkov/cpp-cmake-project-template/actions/workflows/cmake.yml/badge.svg)
+![cpp-cmake-project-template](https://github.com/dstrebkov/cpp-cmake-project-template/actions/workflows/cmake.yml/badge.svg?event=push)
 ![language](https://img.shields.io/github/languages/top/dstrebkov/cpp-cmake-project-template)
 ![repo size](https://img.shields.io/github/repo-size/dstrebkov/cpp-cmake-project-template)
 
