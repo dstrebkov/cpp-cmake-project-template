@@ -45,7 +45,7 @@ These frameworks are obtained from GitHub using CMake's functions `FetchContent_
 
 ## Instructions
 
-Do as you would any CMake project to compile:
+Compile and make:
 
 ```
 mkdir cmake-build
@@ -61,10 +61,10 @@ cd app_factorial/
 ./app_factorial
 ```
 
-Run unit test suite:
+Run unit tests (called from `cmake-build` folder):
 
 ```
-cd ../factorial_doctest_fakeit/test/
+cd ..
 ctest
 ```
 
