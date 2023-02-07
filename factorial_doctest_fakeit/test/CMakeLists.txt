@@ -23,6 +23,5 @@ target_include_directories(factorial_doctest_fakeit_tests PRIVATE "${DOCTEST_FAK
 
 target_link_libraries(factorial_doctest_fakeit_tests PRIVATE doctest::doctest factorial_doctest_fakeit)
 
-enable_testing()
 include(${doctest_SOURCE_DIR}/scripts/cmake/doctest.cmake)
 doctest_discover_tests(factorial_doctest_fakeit_tests)
