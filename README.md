@@ -17,7 +17,7 @@ CMake ≥ `3.14.0` is required.
 
 ## Unit testing
 
-The library is configured with [Doctest](https://github.com/doctest/doctest) ([v2.4.9](https://github.com/doctest/doctest/releases/tag/v2.4.9)) for unit testing + [FakeIt](https://github.com/eranpeer/FakeIt) ([2.3.2](https://github.com/eranpeer/FakeIt/releases/tag/2.3.2)) for mocking.
+The library is configured with [Doctest](https://github.com/doctest/doctest) ([`v2.4.9`](https://github.com/doctest/doctest/releases/tag/v2.4.9)) for unit testing + [FakeIt](https://github.com/eranpeer/FakeIt) ([`2.3.2`](https://github.com/eranpeer/FakeIt/releases/tag/2.3.2)) for mocking.
 
 These frameworks are obtained from GitHub using CMake's functions `FetchContent_Declare()` and `FetchContent_MakeAvailable()`.
 
