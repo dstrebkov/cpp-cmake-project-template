@@ -7,6 +7,8 @@ cpp-cmake-project-template
 
 CMake based C++ project template that could be used as a starting point for a new C++ project.
 
+CMake ≥ `3.14.0` is required.
+
 ## Contents
 
 - static library `factorial` configured with unit testing framework(s);
