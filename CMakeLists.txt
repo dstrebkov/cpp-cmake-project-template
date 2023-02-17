@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.14.0)
 
 project("cpp-cmake-project-template" VERSION 0.1 DESCRIPTION "CMake based C++ project template" LANGUAGES CXX)
 
