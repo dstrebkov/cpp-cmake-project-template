@@ -1,7 +1,8 @@
 cpp-cmake-project-template
 ================
 
-![cpp-cmake-project-template](https://github.com/dstrebkov/cpp-cmake-project-template/actions/workflows/cmake.yml/badge.svg?event=push)
+![github-actions](https://github.com/dstrebkov/cpp-cmake-project-template/actions/workflows/cmake.yml/badge.svg?event=push)
+[![codecov](https://codecov.io/gh/dstrebkov/cpp-cmake-project-template/branch/main/graph/badge.svg?token=ZH1RSUGL5R)](https://codecov.io/gh/dstrebkov/cpp-cmake-project-template)
 ![language](https://img.shields.io/github/languages/top/dstrebkov/cpp-cmake-project-template)
 ![repo size](https://img.shields.io/github/repo-size/dstrebkov/cpp-cmake-project-template)
 
