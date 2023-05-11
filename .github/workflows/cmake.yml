@@ -41,4 +41,4 @@ jobs:
       uses: codecov/codecov-action@v3
       with:
         directory: ${{github.workspace}}/build-test
-        files: ${{github.workspace}}/build-test/coverage.xml
+        files: ${{github.workspace}}/build-test/coverage/coverage.xml
