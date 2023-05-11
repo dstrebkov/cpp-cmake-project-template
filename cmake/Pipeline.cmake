@@ -31,4 +31,5 @@ execute_process(COMMAND ${VENV_PATH}/bin/python -m pip install --upgrade pip --n
 #execute_process(COMMAND ${VENV_PATH}/bin/pip install -r ${REQUIREMENTS_TXT_DIR}/requirements.txt)
 execute_process(COMMAND ${VENV_PATH}/bin/pip install gcovr==6.0)
 #execute_process(COMMAND ${VENV_PATH}/bin/gcovr --use-gcov-files --exclude .*/\(_deps|test\)/ --html-details coverage.html)
-execute_process(COMMAND ${VENV_PATH}/bin/gcovr --root ${CTEST_SOURCE_DIRECTORY} --exclude ${GCOVR_EXCLUDES_RE} --html-details coverage.html)
+#execute_process(COMMAND ${VENV_PATH}/bin/gcovr --root ${CTEST_SOURCE_DIRECTORY} --exclude ${GCOVR_EXCLUDES_RE} --html-details coverage.html)
+execute_process(COMMAND ${VENV_PATH}/bin/gcovr --root ${CTEST_SOURCE_DIRECTORY} --exclude ${GCOVR_EXCLUDES_RE} --xml-pretty)
