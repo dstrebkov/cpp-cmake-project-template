@@ -42,3 +42,4 @@ jobs:
       with:
         directory: ${{github.workspace}}/build-test
         files: ${{github.workspace}}/build-test/coverage/coverage.xml
+        verbose: true
