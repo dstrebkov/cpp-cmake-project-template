@@ -47,6 +47,6 @@ if(NOT ret_cov EQUAL 0)
   message(FATAL_ERROR "Coverage analysis had failures!")
 endif()
 
-if(NOT ret_mem EQUAL 0)
+if(VALGRIND AND NOT ret_mem EQUAL 0)
   message(FATAL_ERROR "Memory checking had failures!")
 endif()
